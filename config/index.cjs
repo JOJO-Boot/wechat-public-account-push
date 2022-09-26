@@ -67,7 +67,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oUVyC6jq01EHfYqCfEUxtW7UM8n0',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'Jb0Lw440VnpGeHMeRsw3pzqn6knhTCpXOarEfFUYKgo',
+      useTemplateId: 'TeQKDLTqERi4f206a6pTsGwXxd7glC_tdj272X4hCvI',
       // 所在省份
       province: '河南',
       // 所在城市
@@ -84,9 +84,12 @@ const USER_CONFIG = {
         {
           type: '*生日', name: '小刘女士', year: '1997', date: '12-25',
         },
-//         {
-//           type: '节日', name: '结婚纪念日', year: '2020', date: '09-03',
-//         },
+        {
+          type: '节日', name: '国庆节', year: '2022', date: '10-01',
+        },
+        {
+          type: '节日', name: '元旦', year: '2023', date: '01-01',
+        },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
 //         {
 //           type: '生日', name: '小刘女士', year: '1998', date: '01-23',
