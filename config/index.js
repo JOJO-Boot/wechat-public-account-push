@@ -65,9 +65,9 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '老婆',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oUVyC6oZsES2KJbXOhC-omj1OXR0',
+      id: 'oUVyC6jq01EHfYqCfEUxtW7UM8n0',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'Vzn2JaLMb5LNwzk9w8VtAR0QopMp8s4w4GNRmR3CjI8',
+      useTemplateId: 'Jb0Lw440VnpGeHMeRsw3pzqn6knhTCpXOarEfFUYKgo',
       // 所在省份
       province: '河南',
       // 所在城市
@@ -77,23 +77,23 @@ const USER_CONFIG = {
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: 'https://wangxinleo.cn',
+      openUrl: 'https://www.baidu.com/',
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '女士', year: '1997', date: '12-25',
+          type: '*生日', name: '小刘女士', year: '1997', date: '12-25',
         },
-        {
-          type: '节日', name: '结婚纪念日', year: '2020', date: '09-03',
-        },
+//         {
+//           type: '节日', name: '结婚纪念日', year: '2020', date: '09-03',
+//         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: '女士', year: '1998', date: '01-23',
-        },
-        {
-          type: '节日', name: '被搭讪纪念日', year: '2021', date: '09-01',
-        }
+//         {
+//           type: '生日', name: '小刘女士', year: '1998', date: '01-23',
+//         },
+//         {
+//           type: '节日', name: '被搭讪纪念日', year: '2021', date: '09-01',
+//         }
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
@@ -321,7 +321,8 @@ const USER_CONFIG = {
         '因为太喜欢你，所以看谁都像是情敌。',
         '申请成为你爱里的永久居民。',
         '你很傻，你很笨，可我还是很羡慕你，因为你有我',
-        '遇见你，就好像捡到了100斤的运气'
+        '遇见你，就好像捡到了100斤的运气',
+        '我哭了，我连夜跑到卢浮宫外痛苦，保安问我为什么在这里哭，我哭着把你的照片给保安看，保安看了也痛苦，哭着说找到了卢浮宫丢失多年的艺术品'
       ],
     }
     // 你可以不断按格式往下增加
